@@ -1,0 +1,32 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>ColorButton.qml</file>
+        <file>MaxButton.qml</file>
+        <file>MoveWindow.qml</file>
+        <file>InfoPage.qml</file>
+        <file>ButtonPage.qml</file>
+        <file>MyButton.qml</file>
+        <file>LayoutPage.qml</file>
+        <file>InputText.qml</file>
+        <file>StartPage.qml</file>
+        <file>UserButton.qml</file>
+        <file>DescripText.qml</file>
+        <file>ArithmeticPage.qml</file>
+        <file>TimerPage.qml</file>
+        <file>TrafficLightPage.qml</file>
+        <file>TableViewPage.qml</file>
+        <file>Buy_DeleteButton.qml</file>
+        <file>MyText.qml</file>
+        <file>MyTextFiled.qml</file>
+    </qresource>
+    <qresource prefix="/images">
+        <file>images/9.png</file>
+        <file>images/10.png</file>
+        <file>images/11.png</file>
+        <file>images/12.png</file>
+        <file>images/13.png</file>
+        <file>images/14.png</file>
+        <file>goodsInfo.json</file>
+    </qresource>
+</RCC>
