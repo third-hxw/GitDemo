@@ -20,7 +20,7 @@ Window {
         target: cppObj
         onCppSignal:{
             console.log("---recv--",msg)
-            txt.text = cppObj.name
+            txt.text = cppObj.name;
         }
     }
 
