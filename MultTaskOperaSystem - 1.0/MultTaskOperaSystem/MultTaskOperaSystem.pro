@@ -1,14 +1,11 @@
 TEMPLATE = app
 
 QT += qml quick
-
 CONFIG += c++11
 
 SOURCES += main.cpp \
-    multtask.cpp \
-    fileio.cpp \
-    goodsinfo.cpp \
-    datamodel.cpp
+    datamodel.cpp \
+    multtask.cpp
 
 RESOURCES += qml.qrc
 
@@ -18,11 +15,7 @@ QML_IMPORT_PATH =
 # Default rules for deployment.
 include(deployment.pri)
 
-DISTFILES +=
-
 HEADERS += \
-    multtask.h \
-    fileio.h \
-    goodsinfo.h \
-    datamodel.h
+    datamodel.h \
+    multtask.h
 

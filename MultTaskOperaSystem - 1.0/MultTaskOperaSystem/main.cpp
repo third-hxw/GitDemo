@@ -11,14 +11,15 @@
 #include<QDebug>
 
 #include"multtask.h"
+
 #include "datamodel.h"
 
 int main(int argc, char *argv[])
 {
     QGuiApplication app(argc, argv);
     qmlRegisterType<MultTask>("MyMultTask",1,0,"MultTask");
-    qmlRegisterType<DataModel>("MyDataModel",1,0,"DataModel");
 
+    qmlRegisterType<DataModel>("MyDataModel",1,0,"DataModel");
     QQmlApplicationEngine engine;
     engine.load(QUrl(QStringLiteral("qrc:/main.qml")));
     if (engine.rootObjects().isEmpty())
