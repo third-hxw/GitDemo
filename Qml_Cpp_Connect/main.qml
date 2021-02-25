@@ -46,6 +46,8 @@ Window {
         width: 100
         height: 50
         text: cppObj.name
+        font.pixelSize: 15
+        font.family: "楷体"
     }
 
 
